@@ -22,6 +22,9 @@ patchedDependencies:
   '@react-native/dev-middleware':
     hash: 563dd3c12ac9064f72bebd975abb206061af92d430d10341a2fce54810b5128f
     path: patches/@react-native+dev-middleware.patch
+  metro-file-map@0.83.3:
+    hash: 9ed41ab7d0b420c6f9a00bc7a7fcc21b2f7fc7912ccc92bde6d3960e06603366
+    path: patches/metro-file-map@0.83.3.patch
   react-native-reanimated:
     hash: 540225f53885acdd1c5c55c971b8e8dc5e10aab438d8a95f42d0526e95deb5c1
     path: patches/react-native-reanimated.patch
@@ -16790,7 +16793,7 @@ snapshots:
       metro-cache-key: 0.83.3
       metro-config: 0.83.3
       metro-core: 0.83.3
-      metro-file-map: 0.83.3
+      metro-file-map: 0.83.3(patch_hash=9ed41ab7d0b420c6f9a00bc7a7fcc21b2f7fc7912ccc92bde6d3960e06603366)
       metro-minify-terser: 0.83.3
       metro-resolver: 0.83.3
       metro-runtime: 0.83.3
@@ -23525,7 +23528,7 @@ snapshots:
       lodash.throttle: 4.1.1
       metro-resolver: 0.84.2
 
-  metro-file-map@0.83.3:
+  metro-file-map@0.83.3(patch_hash=9ed41ab7d0b420c6f9a00bc7a7fcc21b2f7fc7912ccc92bde6d3960e06603366):
     dependencies:
       debug: 4.4.3
       fb-watchman: 2.0.2
@@ -23722,7 +23725,7 @@ snapshots:
       metro-cache-key: 0.83.3
       metro-config: 0.83.3
       metro-core: 0.83.3
-      metro-file-map: 0.83.3
+      metro-file-map: 0.83.3(patch_hash=9ed41ab7d0b420c6f9a00bc7a7fcc21b2f7fc7912ccc92bde6d3960e06603366)
       metro-resolver: 0.83.3
       metro-runtime: 0.83.3
       metro-source-map: 0.83.3
