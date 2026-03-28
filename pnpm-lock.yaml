@@ -4566,6 +4566,9 @@ importers:
 
   packages/expo-modules-core:
     dependencies:
+      expo-modules-jsi:
+        specifier: 55.0.0
+        version: link:../expo-modules-jsi
       invariant:
         specifier: ^2.2.4
         version: 2.2.4

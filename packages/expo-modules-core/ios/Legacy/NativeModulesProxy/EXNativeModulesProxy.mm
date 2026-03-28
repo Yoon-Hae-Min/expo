@@ -18,6 +18,7 @@
 // Swift.h is still needed for ViewModuleWrapper, ExpoFabricView
 // These have class inheritance cycles that require Swift.h
 #import <ExpoModulesCore/Swift.h>
+#import <ExpoModulesCore/ExpoBridgeModule.h>
 
 static const NSString *exportedMethodsNamesKeyPath = @"exportedMethods";
 static const NSString *viewManagersMetadataKeyPath = @"viewManagersMetadata";
