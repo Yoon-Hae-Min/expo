@@ -47,7 +47,7 @@ public final class AppContext: NSObject, @unchecked Sendable {
 
   /**
    React bridge of the context's app. Can be `nil` when the bridge
-   hasn't been propagated to the bridge modules yet (see ``ExpoBridgeModule``),
+   hasn't been propagated to the bridge modules yet,
    or when the app context is "bridgeless" (for example in native unit tests).
    */
   @objc
